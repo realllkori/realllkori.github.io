@@ -23,7 +23,7 @@ BODY {
       width: 90px;
       height: 90px;
       border: 1px solid	#FFF5EE;
-      background: url(/starrynight.jpg); 
+      background: url("/stylesheet/starrynight.jpg"); 
       cursor: pointer;
     }
     
