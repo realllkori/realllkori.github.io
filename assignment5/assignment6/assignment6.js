@@ -29,7 +29,6 @@ $(document).ready(function(){
                        items.push(value.fields.episodes);
                        items.push(value.fields.ratings_highest_to_lowest);
                        items.push(value.fields.summary);
-                       items.push(value.fields.poster);
                        dataSet.push(items);
                        console.log(items);
                 }); // end .each
@@ -39,19 +38,17 @@ $(document).ready(function(){
                  data: dataSet,
                  retrieve: true,
                  columns: [
-                     { title: "show_name",
+                     { title: "Show Name",
                        defaultContent:""},
-                     { title: "country_region",
+                     { title: "Country/Region",
                          defaultContent:"" },
-                     { title: "year",
+                     { title: "Year",
                        defaultContent:"" },
-                     { title: "episodes",
+                     { title: "Episodes",
                        defaultContent:""},
-                     { title: "ratings_highest_to_lowest",
+                     { title: "Ratings (Highest to Lowest)",
                          defaultContent:""},
-                     { title: "summary",
-                       defaultContent:""},
-                     { title: "poster",
+                     { title: "Summary",
                        defaultContent:""},
                  ]
              } );
