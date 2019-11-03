@@ -95,7 +95,7 @@
       
       
           var items = [];
-          var airtable_read_endpoint = "https://api.airtable.com/v0/app4whLYa3fH8o7o5/map?api_key=keyM1aAqd43JCzCMJ";
+          var airtable_read_endpoint = "https://api.airtable.com/v0/appZkrlnJsGA6bN05/map?api_key=keybXfluNBh6MO4fz";
       
           var data = [];
           $.getJSON(airtable_read_endpoint, function(result) {
@@ -116,7 +116,7 @@
     function show_districts(){
 
       for (var i in data) {
-         var airtable_read_endpoint = "https://api.airtable.com/v0/app4whLYa3fH8o7o5/country_region?api_key=keyM1aAqd43JCzCMJ";
+         
           var latlng = L.latLng({ lat: data[i].latitud, lng: data[i].longitud });
           L.marker( latlng )
               .bindPopup( '<a href="' + data[i].url + '" target="_blank">' + '<img src="' + data[i].image_url+'" width = "80px"><br>'+data[i].name + '</a>' )
