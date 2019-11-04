@@ -74,3 +74,12 @@
     }
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  #abc6d0;
+    color: #ffe100;
+    text-align: center;
+}
