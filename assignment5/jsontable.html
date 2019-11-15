@@ -40,21 +40,21 @@
             
            
       </body>  
+      <script>  
+               $(document).ready(function(){  
+                    $('#data-table').DataTable({  
+                         "ajax"     :     "variety_show_list.json",  
+                         "columns"     :     [  
+                              {     "data"     :     "SHOW NAME"     },  
+                              {     "data"     :    "COUNTRY/REGION"},  
+                              {     "data"     :     "YEAR"},
+                              {     "data"     :     "EPISODES"},
+                              {     "data"     :     "RATINGS"},
+                              {     "data"     :     "SUMMARY"},
+                              
+                              
+                     ]  
+                    });  
+               });  
+               </script>  
  </html>  
- <script>  
- $(document).ready(function(){  
-      $('#data-table').DataTable({  
-           "ajax"     :     "variety_show_list.json",  
-           "columns"     :     [  
-                {     "data"     :     "SHOW NAME"     },  
-                {     "data"     :    "COUNTRY/REGION"},  
-                {     "data"     :     "YEAR"},
-                {     "data"     :     "EPISODES"},
-                {     "data"     :     "RATINGS"},
-                {     "data"     :     "SUMMARY"},
-                
-                
-       ]  
-      });  
- });  
- </script>  

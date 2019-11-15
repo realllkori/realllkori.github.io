@@ -15,7 +15,7 @@ $(document).ready(function(){
         $x.empty();
     });
 
-    $("button#get_data").click(function() {
+    $("button#get_data2").click(function() {
         var items = [];
         var i = 0;
         var airtable_read_endpoint = " https://api.airtable.com/v0/app4whLYa3fH8o7o5/My%20drama%20list%20data?api_key=keyM1aAqd43JCzCMJ";
