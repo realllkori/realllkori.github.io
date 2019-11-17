@@ -12,7 +12,11 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.1.29/c3.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -22,7 +26,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
-
+  
 </head>
 
 <body id="page-top">
@@ -37,7 +41,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html">主页</a>s
+            <a class="nav-link js-scroll-trigger" href="index.html">主页</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="about.html">关于VProduce</a>
@@ -60,33 +64,58 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-heading text-uppercase">VProduce 我是制作人</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">开始申请</a>
+        <div class="intro-lead-in">中日韩综艺</div>
+        <div class="intro-heading text-uppercase">本周精选</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">来看看吧</a>
       </div>
     </div>
   </header>
 
-  <!--weekly trending-->
+  
+  </section>
+  <!--data -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">本周观看统计</h2>
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+      </div>
+          <div class="container">
+              <div class="row">
+                  <h1>综艺排行</h1>
+                  <iframe class="airtable-embed" src="https://airtable.com/embed/shrWpbtlBpE2IPJAC?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+              </div>  
+              <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                 <br>
+                 <br>
+                
+                    <!-- Sign and date the page, it's only polite! -->
+                    <button type="button" class="btn btn-warning" id='get_data'>看看数据</button><br>
+                    <br>
+                    <br>
+                    <div class="table-responsive">
+                          <table id="table1" width="100%" class="table table-bordered"></table>
+                    </div><!-- table responsive -->
+                    <br>
+                    <br>
+                    <br>
+                    <div id="chart"></div>
+                    
+                  </div><!-- end col -->
+              </div><!--end row -->
+            </div><!-- container -->
+  </section>
+
+  <!-- top 20 Grid -->
   <section class="bg-light page-section" id="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">申请表格</h2>
-          <br>
-          <div>
-                <iframe class="airtable-embed" src="https://airtable.com/embed/shrikTD4LMv66KnSa?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-          </div>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <h2 class="section-heading text-uppercase">申请指南</h2>
-          <h3 class="section-subheading text-muted"></h3>
-          <div> 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/oDKMLDH8kqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+          <h2 class="section-heading text-uppercase">看综艺吧！</h2>
+          <h3 class="section-subheading text-muted">消磨一个下午</h3>
         </div>
       </div>
       <div class="row">
@@ -97,10 +126,132 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-    </section>
+            <img class="img-fluid" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573896152739&di=19b546b571a2bd805696a85482fe61db&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F6d0b58d8007598e28cdc8a2ab5af73027beb3f26.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>新西游记</h4>
+            <p class="text-muted">姜虎东 李寿根 殷志源 圭贤 宋旻浩 P.O.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573896192959&di=758895096ce03638677836f68a30350e&imgtype=0&src=http%3A%2F%2Fimgphoto.gmw.cn%2Fattachement%2Fjpg%2Fsite2%2F20160608%2Fd02788d8df1018c1f8c825.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Running Man</h4>
+            <p class="text-muted">刘在石 宋智孝 李光洙 HAHA 金钟国</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573896226855&di=a70bb5e32b08717940208fc4019dc290&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farchive%2F05c040348af6000ccbf4625f4dde9540b58f6905.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Show Me the Money</h4>
+            <p class="text-muted">ZICO 朴宰范 LOCO TABLO JINUSEAN 宋旻浩</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574491032&di=f589aff08b4e6727f074a18bfe1fda19&imgtype=jpg&er=1&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farchive%2F895631d20e834828e1d46d2cba17b759690bbce6.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>月曜日未央</h4>
+            <p class="text-muted">松子 关八</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573896345099&di=3977176ff76d2c1f58a25c5f13fd3186&imgtype=0&src=http%3A%2F%2Fi1.hdslb.com%2Fbfs%2Farchive%2F597f02b44102f4d97778f3d6e95cb8d79dcc805e.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>人间观察</h4>
+            <p class="text-muted">竹内良真 坂口健太郎 </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3517162898,1769660180&fm=26&gp=0.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>红白歌会</h4>
+            <p class="text-muted">滨崎步</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573896422083&di=97bdfc6a12eb22c0bd606fd3c204f6b1&imgtype=0&src=http%3A%2F%2Fwww.seekors.com%2Fbbs%2Fdata%2Fattachment%2Fforum%2F201507%2F22%2F101344snewd8zv7c722l2y.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>我是歌手</h4>
+              <p class="text-muted">林志炫 邓紫棋 韩红</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img class="img-fluid" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573896451440&di=cadfdeac3d7f44e2f9eba67d1ae99f16&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn%2Fw1500h1000%2F20180228%2F9b23-fyrwsqk2293860.jpg" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>快乐大本营</h4>
+                <p class="text-muted">何炅 谢娜 李维嘉 吴昕</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573896478359&di=6d947921bed8e30d69347b3f5c93c36c&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F25%2F20190125194827_kKfZl.thumb.700_0.jpeg" alt="">
+                </a>
+                <div class="portfolio-caption">
+                  <h4>明星大侦探</h4>
+                  <p class="text-muted">何炅 撒贝宁 白敬亭 </p>
+                </div>
+              </div>
+      </div>
+    </div>
+  </section>
 
-        
-        
+  
+  
+
   <!-- Clients -->
   <section class="py-5">
       <div class="container">
@@ -421,19 +572,24 @@
   </div>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Contact form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/agency.min.js"></script>
-
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+    <script src='varietyshow.js'></script>
+    <script src='https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
 </body>
 
 </html>

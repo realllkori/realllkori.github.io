@@ -1,0 +1,7 @@
+.navbar-brand .js-scroll-trigger #page-top{
+    color:#ffbb40; text-transform: uppercase; 
+}
+
+.navbar-nav .text-uppercase .ml-auto .collapse .navbar-collapse #navbarResponsive {
+    font-size: 20px;
+}

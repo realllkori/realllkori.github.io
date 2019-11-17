@@ -11,6 +11,7 @@
   <title>Final project - Make your own variety show</title>
 
   <!-- Bootstrap core CSS -->
+  <link href="style.css" rel="stylesheet">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
@@ -29,13 +30,15 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">VProduce</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color:#ffbb40; text-transform: uppercase; ">
+        VProduce
+      </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
+        <ul class="navbar-nav text-uppercase ml-auto" style="font-size: 20px;">
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="index.html">主页</a>
           </li>
@@ -58,13 +61,35 @@
 
   <!--header -->
   <header class="masthead">
-    <div class="container">
+    <div class="container"> 
       <div class="intro-text">
-        <div class="intro-heading text-uppercase">本周综艺精选</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">开始探索</a>
+          <div class="intro-lead-in" style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">让你心中的综艺变成现实</div>
+        <div class="intro-heading text-uppercase" style="color: #ffbb40">VPRODUCE 我是制作人</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href= "#video">了解详情</a>
+        
       </div>
     </div>
   </header>
+
+  <!--video-->
+  <section class="bg-light page-section" id="video">
+      <div class="container">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase"></h2>
+            <h3 class="section-subheading text-muted"></h3>
+            <iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=73149868&cid=126881050&page=2" frameborder="0" onmousewheel="" width="200" height="533" style="background: transparent; border: 1px solid #ccc;"> </iframe>
+          </div>
+          <br>
+          <br>
+          <div class="intro-text">
+              <div class="col-lg-12 text-center">
+              <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger " href= "signup.html">开始申请</a>
+              </div>
+          </div>
+        </div>
+        </div>
+          
+    </section>
 
   <!--weekly trending-->
   <section class="bg-light page-section" id="portfolio">
@@ -132,30 +157,43 @@
       <div class="row text-center">
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            <img class="fas fa-stack-2x" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574571301&di=df04e041a8a1195ffaa5cd045c36543c&imgtype=jpg&er=1&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F152110d3bea93c7740f9469e3492061966e3ae46.jpg"></i>    
           </span>
-          <h4 class="service-heading">遇见PD</h4>
+          <br>
+          <br>
+          <br>
+          <h4>
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">遇见PD</a>
+        </h4>
           <li class="text-muted">名制作人讲座</li>
           <li class="text-muted">PD新著</li>
           <li class="text-muted">线上沟通</li>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+            <img class="fas fa-circle fa-stack-2x text-primary" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574572438&di=f54cb9272c10d597f21940d285137376&imgtype=jpg&er=1&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201805%2F02%2F20180502002824_8VYyN.jpeg"></i>
           </span>
-          <h4 class="service-heading">名MC来啦</h4>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h4>
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">名MC来啦</a>
+          </h4>
           <li class="text-muted">MC讲座</li>
           <li class="text-muted">限量名额看现场</li>
           <li class="text-muted">MC培训工坊</li>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            <img class="fas fa-circle fa-stack-2x text-primary" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573978337030&di=a94a42dbe58718525df0040c8d51478f&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201802%2F02%2F20180202200719_WdzLa.jpeg"></i>
           </span>
-          <h4 class="service-heading">拍摄体验</h4>
+          <br>
+          <br>
+          <br>
+          <h4>
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">拍摄体验</a>
+          </h4>
           <li class="text-muted">摄影棚tour</li>
           <li class="text-muted">综艺取景地一览</li>
         </div>
@@ -164,276 +202,7 @@
     </div>
   </section>
 
-  <!-- Portfolio Grid -->
-  <section class="bg-light page-section" id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Portfolio</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Threads</h4>
-            <p class="text-muted">Illustration</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Explore</h4>
-            <p class="text-muted">Graphic Design</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Finish</h4>
-            <p class="text-muted">Identity</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Lines</h4>
-            <p class="text-muted">Branding</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Southwest</h4>
-            <p class="text-muted">Website Design</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Window</h4>
-            <p class="text-muted">Photography</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section class="page-section" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="timeline">
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2009-2011</h4>
-                  <h4 class="subheading">Our Humble Beginnings</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>March 2011</h4>
-                  <h4 class="subheading">An Agency is Born</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>December 2012</h4>
-                  <h4 class="subheading">Transition to Full Service</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>July 2014</h4>
-                  <h4 class="subheading">Phase Two Expansion</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>Be Part
-                  <br>Of Our
-                  <br>Story!</h4>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Team -->
-  <section class="bg-light page-section" id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-            <h4>Kay Garland</h4>
-            <p class="text-muted">Lead Designer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-            <h4>Larry Parker</h4>
-            <p class="text-muted">Lead Marketer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-            <h4>Diana Pertersen</h4>
-            <p class="text-muted">Lead Developer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
+  
   <!-- Clients -->
   <section class="py-5">
       <div class="container">
@@ -563,15 +332,18 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                <h2 class="text-uppercase">韩流综艺</h2>
+                <p class="item-intro text-muted"></p>
+                <img class="img-fluid d-block mx-auto" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573922419034&di=1c3b6d3d5ab8e72d3d43b2d9e24f9509&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201810%2F15%2F20181015162317_efpiq.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
                   <li>Client: Threads</li>
                   <li>Category: Illustration</li>
                 </ul>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href= "varietyshow.html">点击观看</a>
+                <br>
+                <br>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
@@ -597,15 +369,18 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
+                <h2 class="text-uppercase">日综精选</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573922598642&di=9a845aa847b7c1144958a3d1b8b333f2&imgtype=0&src=http%3A%2F%2Fi2.hdslb.com%2Fbfs%2Farchive%2F30f040ee59cb4144260117d6b5e8798bd432ef4a.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
                   <li>Client: Explore</li>
                   <li>Category: Graphic Design</li>
                 </ul>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href= "varietyshow.html">点击观看</a>
+                <br>
+                <br>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
@@ -631,15 +406,19 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
+                <h2 class="text-uppercase">国内综艺</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574517387&di=87dfc216768334102c8e71c6935d6518&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.nzjsw.com%2Fwp-content%2Fuploads%2F2018%2F06%2F24%2F20180624213818-1.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
                   <li>Client: Finish</li>
                   <li>Category: Identity</li>
                 </ul>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href= "varietyshow.html">点击观看</a>
+                <br>
+                <br>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
@@ -665,9 +444,9 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                <h2 class="text-uppercase">遇见名PD</h2>
+                <p class="item-intro text-muted">会写event的时间地点etc.</p>
+                <img class="img-fluid d-block mx-auto" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573978591109&di=bf1653507b7c8a6580bd62c48c8ce41b&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F49e3e6947e4e499e7d0ea022125fac464a0b6c66.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
@@ -699,9 +478,9 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+                <h2 class="text-uppercase">名MC来啦！</h2>
+                <p class="item-intro text-muted">会写event的时间地点etc.</p>
+                <img class="img-fluid d-block mx-auto" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573978628730&di=a3ddc8979c50e1cae22b74103edf20af&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F2cc7bdba15898b128fc5251ac44e588fc9ad4db01068d-iOkGFb_fw658" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
@@ -733,9 +512,9 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
+                <h2 class="text-uppercase">拍摄体验</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573978715228&di=ab34c5b4d92a2c45ddc9b725bb08b9b8&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_70%2Cc_zoom%2Cw_640%2Fimages%2F20180804%2F6be64b25c20c49baaf14fffcb70efcff.jpeg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
