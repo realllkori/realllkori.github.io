@@ -1,68 +1,31 @@
-# [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/)
+For the variety show project, I utilised a Bootstrap model for the layout design.
+Below are specifc explanations for the website:
 
-[Agency](https://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+Homepage:
+VPRODUCE, as the title and logo of the website, is placed at the left top of the navigation. The global navigation is divided into 'homepage', 'about VPRODUCE', 'Make your own variety show' and 'contact'.
+The horizontal canvas placed in the middle shows the background picture and the slogan. The button 'to know more' leads to a short video below showing the basic information of the competition. Below the video users could also click on 'click to apply' that leads to the page for signing up.
+The following section is 'Weekly trending', with three thumbnails listed presenting trending shows of different countries. By clicking each thumbnail users could view brief descriptions for different variety shows in a pop-up window, and within each windown users are allowed to click on 'click to watch' and go to the 'variety show' page.
+The next section is 'monthly events', with similar design and functions, users can click on each on to view  recent activies (meet producers/emcees and travel to variety show spots)
+Below are some fictional sponsored advertisement.
+Contact information is placed as the footer, and users are allowed to submit a form/click on the icons to contact the 'office'
 
-## Preview
+About
+Quite similar to homepage.
+The page first shows the offered resources of the competition (funding, equipment,tutorials, cooperation) ,and the button below will lead to the signup page.
+The 'rules and procedure' is also designed as a list of thumbnails, and by clicking on each users could view details.
 
-[![Agency Preview](https://startbootstrap.com/assets/img/screenshots/themes/agency.png)](https://blackrockdigital.github.io/startbootstrap-agency/)
+Signup
+The button below the slogan will lead to the form filling section.
+I included an Airtable form
+The guide for application is a short video explaining rules and preparation
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-agency/)**
+Watch variety shows
+The button below the title leads to the section for watching variety shows
+The data section will utilise Airtable and Json
+The 'watch variety show' section is also presented a thumbnails, and by clicking each users could view highlights of each variety show. They are also allowed to trace a link included in each thumbnail to view the complete show.
 
-## Status
+Contact
+By clicking on 'contact us' in the navigation users can directly go to the bottom of the page, which contains contact info.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-agency.svg)](https://www.npmjs.com/package/startbootstrap-agency)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-agency.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-agency)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency?type=dev)
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/agency/)
-* Install via npm: `npm i startbootstrap-agency`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-agency.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-agency)
-
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-#### Gulp Tasks
-
-- `gulp` the default task that builds everything
-- `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
-
-You must have npm installed globally in order to use this build environment.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-agency/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/agency/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
+FYI
+All the data/videos are not ready yet so they are not quite related to the content for now:)
