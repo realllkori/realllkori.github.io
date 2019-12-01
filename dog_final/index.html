@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>PUPPY FARM - FINAL PROJECT</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Puppy Farm
+    Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+    <!-- DATATABLE FILE -->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet" type="text/css">
+  <script src="js/scriptlib.js"></script>
+  <script src="js/scriptlib2.js"></script>
+
+<!-- Leaflet CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.css">
+<link rel="shortcut icon" href="">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.js"></script>
+<script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js"></script>
+
+  </head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
+        <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">主頁</a></li>
+          <li><a href="#schedule">想養狗狗</a></li>
+          <li><a href="#faq">狗狗保健</a></li>
+          <li><a href="#hotel">寄養狗狗</a></li>
+          <li><a href="#event">近期活動</a></li>
+          <li><a href="#contact">聯繫我們</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container wow fadeIn">
+      <h1 class="mb-4 pb-0">PUPPY FARM<br><span>狗狗</span> 之家</h1>
+      <p class="mb-4 pb-0">據港府2019年3月統計，全港飼養狗隻住戶共約15萬戶，占總住戶5.7%。如果您已經是其中的一員，或想飼養狗狗，這裏有您想要的資訊。</p>
+      <a href="https://youtu.be/7fUn-Q3pHmE" class="venobox play-btn mb-4" data-vbtype="video"
+        data-autoplay="true"></a>
+      <a href="#about" class="about-btn scrollto">關於我們</a>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!--==========================
+      About Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" style="margin-right: 50px">
+            <h2 style="margin-top: 60px;">WHAT WE DO</h2>
+            <p>狗狗之家是一個為在香港飼養寵物人士設置的線上平台。在這裡，您可以得到近乎完全的狗狗品種信息、相關出台法律、狗狗醫療保健、狗狗寄養和愛狗人士的近期活動。我們竭盡所能為愛狗人士提供想要資訊。</p>
+          </div>
+          <div class="col-lg-3" style="margin-left: 150px">
+            <img style="width: 350px; height: 350px;  " src="img/dog.png">
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!--==========================
+     dog types
+    ============================-->
+    <section id="schedule" class="section-with-bg">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2>狗隻種類</h2>
+        </div>
+        <h3 class="sub-heading">數據來自美國AKC標準</h3>
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <button class="nav-link active" id="all_data" role="tab" data-toggle="tab">一鍵了解所有</button>
+          </li>
+        </ul>
+        <br>
+        <div id="alldogtype" style="display: none;" >
+            <iframe class="airtable-embed" src="https://airtable.com/embed/shrzXqZrcCqie8uCC?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+        </div>
+        <br>
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <button class="nav-link active" id="dog_intel" role="tab" data-toggle="tab" style="background-color: #eca1a6">狗狗智商TOP 10</button>
+          </li>
+          <li class="nav-item">
+              <button class="nav-link active" id="forbid"  role="tab" data-toggle="tab" style="background-color: #c94c4c">香港禁養狗隻</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link active" id="restrain"  role="tab" data-toggle="tab" style="background-color: #618685">香港限養狗隻</button>
+        </li>
+        </ul>
+        <br>
+        <div id="dogintel" style="display: none;" >
+          <h3 class="sub-heading">數據來自哥倫比亞大學</h3>
+            <iframe class="airtable-embed" src="https://airtable.com/embed/shr9xSSUhF9U2KnTO?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+        </div>
+        <div id="dog_fb" style="display: none;" >
+          <h3 class="sub-heading">數據來自香港政府一站通</h3>
+          <iframe class="airtable-embed" src="https://airtable.com/embed/shrY7rSCD3YTJhbJD?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+      </div>
+      <div id="dog_rs" style="display: none;" >
+        <h3 class="sub-heading">指在公眾地方狗隻需被長度不超過兩米大的狗帶穩妥牽引/長度不超過1.5米的狗帶安穩控制在固定物體</h3>
+        <iframe class="airtable-embed" src="https://airtable.com/embed/shrsGKmFRrLQ0Mqyw?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+    </div>
+    <br>
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a href="#recommendation" class="about-btn scrollto">推薦狗隻</a>
+      </li>
+    </ul>
+   </section>
+
+
+    <!--==========================
+    recommendation Section
+    ============================-->
+
+    <section id="recommendation" class="wow fadeInUp">
+
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <br>
+          <br>
+          <br>
+          <h2>推薦飼養狗種</h2>
+          <br>
+          <p>由於香港普遍室內面積小，室外溫度較高，且城市居民生活繁忙，我們主要根據 是否耐熱、是否掉毛以及其他飼養方便程度 向您推薦以下犬種。</p>
+        </div>
+        <div align="center">
+            <div class="table-responsive">
+              <table id="table1" width="100%" class="display">
+          
+                <tfoot>
+                  <tr>
+                    <th>推薦排名</th>
+                    <th>狗隻種類</th>
+                    <th>圖片</th>
+                    <th>種類</th>
+                    <th>體型</th>
+                    <th>產地</th>
+                    <th>耐熱</th>
+                    <th>不掉毛</th>
+                    <th>不愛叫</th>
+                    <th>平均壽命</th>
+                    <th>其他特質</th>
+                  </tr>
+              </tfoot>
+          
+              </table>
+    </section>
+
+ <!--==========================
+    dog health articles section
+    ============================-->
+    <section id="faq" class="wow fadeInUp">
+
+        <div class="container">
+  
+          <div class="section-header">
+            <h2>養狗常見醫療保健問題 </h2>
+          </div>
+  
+          <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <ul id="faq-list">
+                  <li>
+                    <a data-toggle="collapse" href="#faq1" class="collapsed">寵物疫苗種類這麼多，我要怎麼為我的狗狗選擇呀？ <i class="fa fa-minus-circle"></i></a>
+                    <div id="faq1" class="collapse" data-parent="#faq-list">
+                      <p>
+                       狗隻疫苗分為核心疫苗和非核心疫苗兩類。核心疫苗是指狗狗必須要接種的比較重要的疫苗。非核心疫苗是指可以根據狗狗的身體健康狀況和生活環境，進行有針對性接種的疫苗。
+                       <br>核心疫苗是指狗狗必須要接種的比較重要的疫苗。非核心疫苗是指可以根據狗狗的身體健康狀況和生活環境，進行有針對性接種的疫苗。
+                       <br>
+                       <br>二聯疫苗：犬瘟熱和犬細小病毒； 三聯疫苗：犬瘟熱細小和冠狀病毒嗄；(一般為國產)  四聯疫苗：犬瘟熱、犬細小病毒、犬副流感、犬腺病毒；  五聯疫苗：犬瘟熱、犬細小病毒、犬副流感、犬腺病毒I型、II型（犬傳染性肝炎病毒，犬傳染氣管炎）；  六聯疫苗：犬瘟熱、犬細小病毒、犬副流感、犬腺腺病毒I型、II型（犬傳染性肝炎、犬傳染氣管炎）和鉤端螺旋體；  進口七聯疫苗：犬瘟熱、犬細小病毒、犬副流感、犬腺腺病毒I型、II型（犬傳染性肝炎、犬傳染氣管炎）和鉤端螺旋體病、狂犬病；  國產七聯疫苗：犬副流感、傳染性肝炎，細小病毒，冠狀病毒，腸炎，犬瘟熱，傳染性肝炎；  八聯疫苗：犬瘟熱、犬細小病毒、犬副流感、犬腺腺病毒I型、II型（犬傳染性肝炎、犬傳染氣管炎）、犬冠狀病毒、鉤端螺旋體病、黃疸出血型鉤端螺旋體；
+                       <br>
+                       <br>註射安排: 通常疫苗註射分為兩個階段：幼犬期的首次註射，及之後的常規註射。
+                       <br>
+                       <br>註射頻率：1、首次疫苗需出生42天（6周）後才可接種；2、首次疫苗需要接種三次，每次間隔21天最佳，10天最少；3、首次疫苗後的常規註射間隔11個月（通常會說是1年）註射一次即可。大部分正規的犬舍會在狗狗打完前兩次，甚至第三次後才會交由狗主手上。少數犬舍會在首次註射後就交由狗主，所以必須清楚狗狗之前註射疫苗的情況。
+                       <br>
+                       <br>注意事项:
+                       <br>注射前: 1、疫苗是一种弱病毒，建议狗狗注射疫苗前必须进行体内外驱虫及健康检查，避免影响接种效果；2、正规进口疫苗瓶子的标签可以方便撕下，然后贴在疫苗本上，记得携带疫苗本，方便登记（在之后的加强免疫可以选择不同公司的疫苗，这样可以补充之前疫苗没有的病毒型的免疫谱。）3、不适合打疫苗的狗：不足6周的幼犬（幼犬出生后从母乳内能够获取母体的免疫抗体）、怀孕的狗、产后半个月内的狗、健康失调或生病中的狗、刚结扎或外伤未愈合的狗；4、选择正规医院，黑心医院的疫苗真伪、储存环境、接种手法都没有保证。
+                       <br>注射后: 1、注射后留院观察半小时，无不良反应即可离开；2、幼犬接种后一周内避免洗澡，更换环境或外出（成犬建议3天后再出门）；3、一周内避免口服抗生素，驱虫等药物，可能导致免疫失败。
+                       <br>
+                       <br>來源：汪的盒子Wonderbox
+                       <a href="https://www.zhihu.com/question/53594785/answer/493289999">原文連結🔗</a>
+                      </p>
+                    </div>
+                  </li>
+        
+                  <li>
+                    <a data-toggle="collapse" href="#faq2" class="collapsed">除了常規狗糧，給狗狗吃什麼比較好？有什麼食物禁忌呢？ <i class="fa fa-minus-circle"></i></a>
+                    <div id="faq2" class="collapse" data-parent="#faq-list">
+                      <p>
+                       ☑️除了常規狗糧，我們也推薦狗主任定期DIY寵物特餐，加入一定量的蔬菜和肉類。
+                       <br>
+                      <br>如果說狗狗一定要吃蔬菜的話，那麽首選肯定是胡蘿卜！因為胡蘿卜含有豐富的胡蘿卜素以及維生素B，C，D，E，K和營養元素，同時卡路裏含量也不高，很多狗糧裏也都含有胡蘿卜，對狗狗的毛發皮膚和眼睛都很好。但是我們餵胡蘿卜一定要切成細丁過油，因為胡蘿卜的主要營養元素都是脂溶性的，也就是說要和油脂充分接觸才能融於油脂中並被吸收，所以不能直接餵狗生吃！你也不一定要油炒，可以和生肉或者奶酪一起餵也可以的。但是一頓不要餵太多，一周餵1-3次即可！
+                      <br>
+                      <br>紫薯紅薯：也是我們說的地瓜。現在很多鏟屎官自制狗糧或者零食都會用紫薯。紅薯是非常好的碳水化合物，比大米土豆吃了好。同時還為狗狗提供纖維素、維生素B6、維生素C、β—胡蘿卜素和錳元素。同時紅薯還是人類抗癌蔬菜排行榜第1名。對狗狗也能起到潤腸通便的作用，但也要適量。因為紅薯澱粉含量很高，餵食過多會導致狗狗變胖，且愛放臭屁！
+                      <br>
+                      <br>西蘭花：首先西蘭花莖對狗狗是有危險的，最好是剁碎成小塊，煮熟的西蘭花更有助於消化。且含有豐富的維生素C、K、A，葉酸、錳，鈣和纖維素，對狗狗有很好的作用！
+                      <br>
+                      <br>白菜：最好是餵葉子，因為根莖基本都是水份，白菜的熱量低、食物纖維少。含衛維生素A,C,鉀，葉酸，對狗狗的腸胃是很溫和的蔬菜。能幫助消化，可以改善狗狗的皮膚。如果你的狗狗皮膚幹燥或是粗糙，白菜可以幫助減少皮膚刺激，促進皮膚的健康生長！
+                      <br>
+                      <br>適合狗狗吃，但不宜多吃的水果: 蘋果，梨，草莓，香蕉，瓜類（西瓜，哈密瓜，香瓜），藍莓，橘子，橙子，柚子，獼猴桃，芒果，菠蘿等！
+                      <br> *餵食建議去籽 去核 去皮， 以防引起狗狗腸胃炎。
+                      <br>
+                      <br>❌狗狗禁止食用❌
+                      <br>1、葡萄：葡萄的成分能夠導致狗狗腎功能衰竭，並且出現嘔吐的癥狀。
+                      <br>2、調味料：洋蔥、辣椒，大蔥，韭菜，生姜，大蒜，等調味料都不能吃。不管是吃生的，還是熟的或其他形式的洋蔥或韭菜可能會對狗造成嚴重的健康問題。這類蔬菜可以摧毀狗的血細胞，造成貧血和不可彌補的傷害他們的腎臟。吃任何形式的洋蔥韭菜後，您的狗可能會出現虛弱，呼吸困難，疲勞和經歷嘔吐和血尿的跡象。這是致命殺手！
+                      <br>3、生土豆皮豆芽：不管是人還是狗都不應該吃生土豆，生土豆皮，發芽的土豆和豆芽，它們可能含有可能引起狗嘔吐，腹瀉和心跳不正常的茄堿。生土豆還含有有害的草酸鹽，這可能在狗的腎臟，消化道和神經系統中引起問題。土豆去皮煮熟可以少餵。
+                      <br>4、蘑菇和菌類：一般的鮮菇蘑菇是沒有毒的，但這種蔬菜對於狗狗來說，並不好消化吸收，吃一朵蘑菇，它會給你拉出一朵蘑菇雲。所以不建議直接煮蘑菇給狗狗吃，而且怕就怕狗狗在吃過熟悉蘑菇的味道以後，在野外會誤食有毒的蘑菇，可能會開始出現器官衰竭，癲癇發作，昏迷，嘔吐，腹瀉等癥狀。
+                      <br>5、石榴：狗吃石榴，大多數狗都會生病。這是因為幾乎所有的石榴的可食部分都包含種子，這對狗來說是很難消化的。狗狗吃石榴往往會發生胃痛或嘔吐。大多數時候，如果你的狗吃石榴的量很小，可能會沒事。
+                      <br>6、巧克力咖啡和茶：這類食物中含有可可堿和咖啡因會致使狗狗有生命危險，堅決不可以吃，純度越高的巧克力和咖啡就越致命！
+                      <br>7、啤酒饮料汽水：啤酒含有酒精，而碳酸饮料中很多都含有咖啡因，比如可乐红牛饮料。不管是含酒精还是咖啡因，这些都不利于狗。
+                      <br>8、生雞蛋：生雞蛋通常含有病菌,如沙門氏菌和大腸桿菌,而生蛋白還含有一種叫卵白素的，它會耗盡狗體內的維生素H，也會影響維生素B的吸收，缺乏維生素H可能導致狗狗掉毛，骨骼畸形，生長遲緩和皮膚問題。
+                      <br>
+                      <br>
+                      來源：<a href="https://zhuanlan.zhihu.com/p/37354059">寵物飼養 chongwu2013 </a>
+                    </p>
+                  
+                    </div>
+                  </li>
+        
+                  <li>
+                    <a data-toggle="collapse" href="#faq3" class="collapsed">我平日好忙😭每天需要遛狗几次 每次要多久呀？ <i class="fa fa-minus-circle"></i></a>
+                    <div id="faq3" class="collapse" data-parent="#faq-list">
+                      <p>
+                          散步的時間，次數必須要有規律。朝夕兩次，早上在7：00-8：00早飯之前，晚上在10：00-11：00晚飯之後，飯後不宜馬上到戶外活動，早上外出運動後再吃東西可以令寵物胃口大開，有助於寵物增大食量。
+                      <br> 
+                      <br> 一般來說，小型狗狗每天散步的時間控制在20~30分鐘左右比較適宜，而中型狗狗每天只需要在30~40分鐘左右，如果你養的是一只七八十斤以上的大狗狗，那麽每天就基本上要溜達差不多一小時了。如果間隔一天沒有運動，那麽第二天的運動量要減少，然後逐漸恢覆。
+                      <br>
+                      <br>⚠️注意事項 ⚠️
+                      <br>
+                      <br>小心草坪蜱蟲
+                      <br>蜱蟲一年四季都有，夏季尤其多，喜歡分布在草叢、灌木叢等地方，家中養寵物狗的朋友遛完狗回家後，記得檢查狗身上是否有蜱蟲，盡量少去草坪、灌木叢等地方。
+                      <br>
+                      <br>切勿突然大量的運動
+                      <br>有些主人因為日常工作忙，周一至周五都幾乎沒有時間帶狗狗出去逛，在雙休日突然做大量的運動。突然大量的運動很容易讓狗狗的身體因為不適應而造成各種各樣的不適。如果你的狗狗已經超過了7歲，這樣的做法還有可能令到狗狗的心臟、脊椎、韌帶與關節受到傷害。
+                      </p>
+                    </div>
+                  </li>
+        
+                  <li>
+                    <a data-toggle="collapse" href="#faq4" class="collapsed">狗狗一定要絕育嗎？什麼時候去做會比較好呢？ <i class="fa fa-minus-circle"></i></a>
+                    <div id="faq4" class="collapse" data-parent="#faq-list">
+                      <p>
+                        狗狗不是一定要做絕育，但我們建議您為愛寵絕育。
+                        <br>根據SCPA（愛護動物協會），每年有數以千計的動物因沒有家庭照顧而被人道毀滅，絕育有益於減少動物被遺棄的機會。
+                        <br>
+                        <br>此外，絕育還有以下的好處：
+                        <br>健康上的益處
+                        <br>絕育可大大減低貓狗患上前列腺、睪丸、子宮和乳腺疾病及癌症的機會。
+                        <br>減少隨處噴尿
+                        <br>絕育可有效減少貓狗因宣示領土主權而四處噴尿的行為（噴尿指在傢俬及牆身上撒尿）。
+                        <br>減低偷走意欲
+                        <br>交配是動物的本能需要。舉例說，處於發情期的雌貓會想盡千方百計逃走，以尋覓和吸引未絕育的雄性。至於長期飼養於室內的雄性狗隻則會將精力發洩於家具，甚至人類身上。
+                        <br>降低攻擊性
+                        <br>一般而言，絕育後的狗隻性格會較未絕育的溫馴，不會輕易與其他狗隻發生打鬥。
+                        <br>免招不速之客
+                        <br>未絕育的雌犬一年約有兩次發情期，每次為期約三週。處於發情期的雌性會引來許多不速之客的騷擾。
+                        <br>防止假妊娠
+                        <br>未絕育的雌犬的身體會發生類似懷孕的生理改變，繼而衍生許多奇怪行為，引致焦慮。
+                        <br>
+                        <br>不論雌雄，貓隻及狗隻約於5至6個月大時已可交配，越早接受手術越好。 
+                        <br>
+                        <br>⚠️特別要點注意
+                        <br>1、絕育手術需提前確認醫院、醫生及手術費用做預約
+                        <br>2、術前檢查是必要選項         
+                        <br>3、手術麻醉推薦呼吸麻醉                        
+                        <br>4、術後狗狗需穿戴手術服及伊麗莎白圈                        
+                        <br>5、術後傷口會疼痛3-5天，可以正常遛狗，但不要讓狗跳躍
+                        <br><a href="https://www.spca.org.hk/ch/animal-birth-control/desex-your-pet?gclid=Cj0KCQiAoIPvBRDgARIsAHsCw0-iuxjaIomxxyyN2HI8ILKYpAqPqwbIG9a5b4EJY7eJBkVAHPvyrIoaAtT1EALw_wcB">更多訊息點擊</a>
+                      </p>
+                    </div>
+                  </li>
+
+                  <li>
+                      <a data-toggle="collapse" class="collapsed" href="#faq5">我最近移居香港，養狗有什麼要求呀？<i class="fa fa-minus-circle"></i></a>
+                      <div id="faq5" class="collapse" data-parent="#faq-list">
+                        <p>
+                          1.申請特別許可證
+                          <br>
+                          <br>2.香港法例規定五個月大或以上的狗隻必須領有牌照。你可到漁農自然護理署（漁農署）的牌照中心申領牌照。毋須預約，過程只需約十五分鐘，並可同時為狗隻進行防疫注射及植入微型晶片。
+                          <br>
+                          <br>3. 註冊獸醫名單。<a href="https://www.gov.hk/tc/nonresidents/living/pets.htm">點擊獲取更多訊息</a>
+                        </p>
+                      </div>
+                    </li>
+          
+                  <li>
+                    <a data-toggle="collapse" href="#faq6" class="collapsed">其他寵物護理TIPS <i class="fa fa-minus-circle"></i></a>
+                    <div id="faq6" class="collapse" data-parent="#faq-list">
+                      <p>
+                        關於毛髮護理 清潔美容等 
+                       <a href="https://zhuanlan.zhihu.com/p/35602244">點此連結</a>
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+        <section id="schedule">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                  <a href="#venue" class="about-btn scrollto">寵物醫院</a>
+                </li>
+              </ul>
+             </section>
+      </section>
+
+ <!--==========================
+      dog hospital map Section
+    ============================-->
+    <section id="venue" class="wow fadeInUp">
+
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h2>寵物醫院</h2>
+          <p>來源：香港01</p>
+        </div>
+
+        <div class="row no-gutters">
+          <div class="col-lg-6 venue-map">
+            <iframe src="https://datanews.hk01.com/map/petcare/index.html?utm_source=inline_article_272385&amp;utm_medium=referral&amp;utm_campaign=petcare#base" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+
+          <div class="col-lg-6 venue-info">
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-8">
+                <h3>全港寵物醫院</h3>
+                <p>狗狗也會遇到疾病，不管是出於及時治病還是為狗狗的長遠健康打算，了解您周邊的寵物醫院都非常重要。
+                  <br>
+                  <br>此地圖來源《香港01》，內有160間寵物醫院訊息。建議您使用導航過濾功能，尋找自己住屋附近的狗狗醫院啦。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+
+    </section>
+
+    <!--==========================
+     dog hotel map Section
+    ============================-->
+    <section id="hotel" class="section-with-bg wow fadeInUp">
+
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h2>寄養寵物</h2>
+          <p>數據來自漁農自然護理署，所列寵物酒店皆為已簽署同意被列入「持牌動物寄養所名單」的寵物寄養處。</p>
+        </div>    
+        <div align="center">
+          <button style="background-color: #034f84" type="button" id='show' onclick="show_districts1();">港島</button>
+          <button style="background-color: #feb236"type="button" id='show' onclick="show_districts2();">九龍</button>
+          <button style="background-color: #86af49"type="button" id='show' onclick="show_districts3();">新界</button>
+        </div>
+        <br>
+        <div id="map" style="width: 650px; height: 480px; border: 1px solid #AAA; margin-left: auto; margin-right: auto;" class="map">
+     </div>
+     <br>
+     <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <button class="nav-link active" id="hotel_detail" role="tab" data-toggle="tab">寄養所詳細訊息</button>
+      </li>
+    </ul>
+  
+    
+    <div id="details" style="display: none;" >
+      <h3 class="sub-heading" align="center">善用過濾"filter"功能查看您所在分區訊息喔</h3>
+      <iframe class="airtable-embed" src="https://airtable.com/embed/shrq6fmL9RlToToBc?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+    </div>
+    <br>
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <button class="nav-link active" id="geo_differ" role="tab" data-toggle="tab" style="background-color: #618685">寄養所地區分布差異</button>
+      </li>
+    </ul>
+    <div >
+      <div class="col-lg-12"><div id="chart"></div></div>
+     
+
+      </div>
+    </section>
+    
+    <!--==========================
+      events Section
+    ============================-->
+    <section id="event" class="wow fadeInUp">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2>近期活動</h2>
+        </div>
+
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" href="#December" role="tab" data-toggle="tab">DEC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#January" role="tab" data-toggle="tab">JAN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#February" role="tab" data-toggle="tab">FEB</a>
+          </li>
+        </ul>
+
+        <div class="tab-content row justify-content-center">
+
+          <!-- Schdule December -->
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="December">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time><b>25-26</b><br/>全天</time></div>
+              <div class="col-md-10">
+                <h4>狗狗旅行團之人狗聖誕之旅</h4>
+                <p><span><a href="https://www.facebook.com/events/1159939280864023/?active_tab=about">點擊查詢</a></span></p>
+              </div>
+            </div>
+
+          </div>
+          <!-- End Schdule December -->
+
+          <!-- Schdule January -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="January">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time><b>05</b><br/>全天</time></div>
+              <div class="col-md-10">
+                <h4>希爾思 X 香港愛護動物協會
+                    全城狗狗行善日 2020</h4>
+                <p><span><a href="https://dogathon.spca.org.hk/">點擊SPCA網站了解更多訊息</a></span></p>
+              </div>
+            </div>
+
+          </div>
+          <!-- End Schdule January -->
+
+          <!-- Schdule February -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="February">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time><b>17</b><br/>8:00-20:00</time></div>
+              <div class="col-md-10">
+                <h4>20th HKUST Indoor Archery Open Competition</h4>
+                <p><span>HKUST • ALL</span></p>
+              </div>
+            </div>
+
+          </div>
+          <!-- End Schdule February -->
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h2>歡迎聯絡</h2>
+          <p></p>
+        </div>
+        <div class="form">
+          <div id="sendmessage">提交成功，感謝您的意見和建議。</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="姓名" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="電郵地址" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="主題" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="請寫下您的問題或寶貴建議" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit">提交訊息</button></div>
+          </form>
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <img src="img/logo.png" alt="TheEvenet">
+            <p>PUPPY FARM 狗狗之家是一個為在香港飼養寵物人士設置的線上平台。我們竭盡所能為愛狗人士提供想要資訊。</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>快捷連結🔗</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="##intro">主頁</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="##schedule">想養狗狗</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#faq">狗狗保健</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#hotel">寄養狗狗</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#event">近期活動</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h4>聲明</h4>
+            <p>
+              此網站為香港中文大學傳播學院新媒體學系翟天歌學生為課程COMM5961所建立。<br>
+              This is a student project by Tiange Zhai for the course COM5961 of the New Media Programme of the School of Journalism and Communication, CUHK.<br>
+
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
+        -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+   <!-- Javascript For Map -->
+   <script>
+    var mapboxTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,})
+
+    var map = L.map('map')
+          .addLayer(mapboxTiles)
+          .setView([22.344286, 114.13550], 11);
+   layerGroup = L.layerGroup().addTo(map);
+   
+   var hk_island = L.icon({
+   iconUrl: 'img/marker/bluemarker.png',
+   iconSize: [30, 40], // size of the icon
+   popupAnchor: [0,-15]
+   });
+
+  var kowloon = L.icon({
+  iconUrl: 'img/marker/yellowmarker.png',
+  iconSize: [30, 40], // size of the icon
+  popupAnchor: [0,-15]
+  });
+
+  var n_t = L.icon({
+  iconUrl: 'img/marker/greenmarker.png',
+  iconSize: [35, 40], // size of the icon
+  popupAnchor: [0,-15]
+  });
+
+
+    var items = [];
+    var airtable_read_endpoint = " https://api.airtable.com/v0/appJWWovfxpfQ27J5/%E6%B8%AF%E5%B3%B6?api_key=keybXfluNBh6MO4fz";
+    var data = [];
+    $.getJSON(airtable_read_endpoint, function(result) {
+           $.each(result.records, function(key,value) {
+               items = {};
+                   items["name"] = value.fields.Name;
+                   items["url"] = value.fields.website;
+                   items["image_url"] = value.fields.image_url;
+                   items["latitud"] = value.fields.Lat;
+                   items["longitud"] = value.fields.Lng;
+                   data.push(items);
+                   console.log(items);
+            }); // end .each
+    }); // end getJSON
+</script>
+<script>
+function show_districts1(){
+
+  for (var i in data) {
+      var latlng = L.latLng({ lat: data[i].latitud, lng: data[i].longitud });
+      L.marker( latlng , {icon: hk_island} )
+    .bindPopup( '<a href="' + data[i].url + '" target="_blank">' + '<img src="' + data[i].image_url+ '" width = "300px"><br>'+data[i].name + '</a>' )
+    .addTo(layerGroup);
+  }
+}
+</script>
+<script>
+var map2_items = [];
+var airtable_read_endpoint = "https://api.airtable.com/v0/appJWWovfxpfQ27J5/%E4%B9%9D%E9%BE%8D?api_key=keybXfluNBh6MO4fz";
+var map2_data = [];
+$.getJSON(airtable_read_endpoint, function(result) {
+       $.each(result.records, function(key,value) {
+           map2_items = {};
+               map2_items["name"] = value.fields.Name;
+               map2_items["url"] = value.fields.website;
+               map2_items["image_url"] = value.fields.image_url;
+               map2_items["latitud"] = value.fields.Lat;
+               map2_items["longitud"] = value.fields.Lng;
+               map2_data.push(map2_items);
+               console.log(map2_items);
+        }); // end .each
+}); // end getJSON
+
+function show_districts2(){
+
+for (var i in map2_data) {
+  var latlng = L.latLng({ lat: map2_data[i].latitud, lng: map2_data[i].longitud });
+  L.marker( latlng , {icon: kowloon})
+  .bindPopup( '<a href="' + map2_data[i].url + '" target="_blank">' + '<img src="' + map2_data[i].image_url+ '" width = "300px"><br>'+map2_data[i].name + '</a>' )
+  .addTo(layerGroup);
+};
+};
+</script>
+<script>
+var map3_items = [];
+var airtable_read_endpoint = "https://api.airtable.com/v0/appJWWovfxpfQ27J5/%E6%96%B0%E7%95%8C?api_key=keybXfluNBh6MO4fz";
+var map3_data = [];
+$.getJSON(airtable_read_endpoint, function(result) {
+       $.each(result.records, function(key,value) {
+           map3_items = {};
+               map3_items["name"] = value.fields.Name;
+               map3_items["url"] = value.fields.website;
+               map3_items["image_url"] = value.fields.image_url;
+               map3_items["latitud"] = value.fields.Lat;
+               map3_items["longitud"] = value.fields.Lng;
+               map3_data.push(map3_items);
+               console.log(map3_items);
+        }); // end .each
+}); // end getJSON
+
+function show_districts3(){
+
+for (var i in map3_data) {
+  var latlng = L.latLng({ lat: map3_data[i].latitud, lng: map3_data[i].longitud });
+  L.marker( latlng , {icon: n_t})
+  .bindPopup( '<a href="' + map3_data[i].url + '" target="_blank">' + '<img src="' + map3_data[i].image_url+ '" width = "300px"><br>'+map3_data[i].name + '</a>' )
+  .addTo(layerGroup);
+};
+};
+</script>
+</body>
+
+</html>
