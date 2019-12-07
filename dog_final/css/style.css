@@ -791,6 +791,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }
 
+
+#speakers h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding: 0 20px;
+}
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
@@ -900,6 +907,99 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-style: italic;
   color: #152b79;
   margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# adoption procedure Section
+--------------------------------------------------------------*/
+
+
+#speakers .nav-tabs {
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+
+#speakers .nav-tabs li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+#speakers .nav-tabs button {
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: #0e1b4d;
+  color: #fff;
+  padding: 10px 100px;
+}
+#speakers .nav-tabs a{
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: #0e1b4d;
+  color: #fff;
+  padding: 10px 100px;
+}
+
+#speakers .nav-tabs button.active {
+  background-color: #feb236;
+  color: #fff;
+}
+
+#speakers .nav-tabs a.active {
+  background-color: #feb236;
+  color: #fff;
+}
+
+#speakers .tab-pane {
+  transition: ease-in-out .2s;
+}
+
+
+/*--------------------------------------------------------------
+# Schedule Section
+--------------------------------------------------------------*/
+#recommendation .nav-tabs {
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+
+#recommendation .nav-tabs li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+#recommendation .nav-tabs button {
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: #0e1b4d;
+  color: #fff;
+  padding: 10px 100px;
+}
+#recommendation .nav-tabs a{
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: #0e1b4d;
+  color: #fff;
+  padding: 10px 100px;
+}
+
+#recommendation .nav-tabs button.active {
+  background-color: #feb236;
+  color: #fff;
+}
+
+#recommendation .nav-tabs a.active {
+  background-color: #feb236;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -2051,6 +2151,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 8px 60px;
   
   }
+  #recommendation .nav-tabs a {
+    padding: 8px 60px;
+  
+  }
   #hotel .nav-tabs a {
     padding: 8px 60px;
   
@@ -2076,6 +2180,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 8px 50px;
   }
 }
+@media (max-width: 767px) {
+  #speakers .nav-tabs button {
+    padding: 8px 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  #recommendation .nav-tabs button {
+    padding: 8px 50px;
+  }
+}
+
 
 @media (max-width: 767px) {
   #event .nav-tabs button {
@@ -2091,6 +2207,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 767px) {
   #schedule .nav-tabs a {
+    padding: 8px 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  #speakes .nav-tabs a {
+    padding: 8px 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  #recommendation .nav-tabs a {
     padding: 8px 50px;
   }
 }
@@ -2126,6 +2254,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 480px) {
+  #speakers .nav-tabs button {
+    padding: 8px 30px;
+  }
+}
+
+@media (max-width: 480px) {
   #event .nav-tabs button {
     padding: 8px 30px;
   }
@@ -2138,6 +2272,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 @media (max-width: 480px) {
   #schedule .nav-tabs a {
+    padding: 8px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  #speakers .nav-tabs a {
+    padding: 8px 30px;
+  }
+}
+@media (max-width: 480px) {
+  #recommendation .nav-tabs a {
     padding: 8px 30px;
   }
 }

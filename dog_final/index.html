@@ -180,6 +180,12 @@
         <a href="#recommendation" class="about-btn scrollto">推薦狗隻</a>
       </li>
     </ul>
+    <br>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+          <a href="#speakers" style="background-color:  #86af49" class="about-btn scrollto">養狗前需要做些甚麼？</a>
+        </li>
+      </ul>
    </section>
 
 
@@ -220,6 +226,72 @@
               </tfoot>
           
               </table>
+    <br>
+ 
+    </section>
+
+     <!--==========================
+     Adoption procedures section
+    ============================-->
+    <section id="speakers" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>養狗所需手續</h2>
+          <p>資訊來自漁農自然管理署</p> 
+          <p ><a style="color: #034f84 " href="https://www.pets.gov.hk/tc_chi/proper_care_of_pets/dogs/dog_licence.html#tab_01">更多訊息🔗</a></p>
+        </div>
+        <br>
+       
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img style="height: 100 px; width: 500px;"src="/img/adoption_procedures/rabbies.JPG" alt="rabbies" class="img-fluid">
+              <div class="details">
+                <h3>注射狂犬疫苗</h3>
+                <p>狗隻三個月大</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img style="height: 100 px; width: 500px;" src="/img/adoption_procedures/microchip.jpg" alt="microchip" class="img-fluid">
+              <div class="details">
+                <h3><a href="https://www.pets.gov.hk/tc_chi/proper_care_of_pets/dogs/dog_licence.html#tab_04" target="_blank">植入微型晶片</a></h3>
+                <p>晶片米粒大 一塊用一生</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img style="height: 100 px; width: 500px;" src="/img/adoption_procedures/license.jpg" alt="license" class="img-fluid">
+              <div class="details">
+                <h3><a href="" target="_blank">申領牌照</a></h3>
+                <p>五個月大或以上狗隻 牌照有效期3年</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <br>
+      <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <button class="nav-link active" id="show_sites" role="tab" data-toggle="tab" >查看動物管理中心</button>
+          </li>
+        </ul>
+      <br>
+      <div id="gov_sites" style="display: none;" >
+          <h3 align="center" class="sub-heading">數據來自漁農自然護理署</h3>
+          <br>
+          <iframe class="airtable-embed" src="https://airtable.com/embed/shrfNdvQl1FbUPwV0?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+        </div>
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <button class="nav-link active" id="get_location" role="tab" data-toggle="tab" style="background-color: #618685" >地圖上查看</button>
+            </li>
+          </ul>
+          <div id="data_map" style="display: none;" >
+              <br>
+              <iframe title="&amp;nbsp; 動物寄養所" aria-label="Locator maps" id="datawrapper-chart-An4yU" src="//datawrapper.dwcdn.net/An4yU/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="526"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+            </div>  
     </section>
 
  <!--==========================
@@ -395,13 +467,13 @@
         </div>
 
         <div class="row no-gutters">
-          <div class="col-lg-6 venue-map">
+          <div class="col-lg-6 venue-map" style='min-height: 350px'>
             <iframe src="https://datanews.hk01.com/map/petcare/index.html?utm_source=inline_article_272385&amp;utm_medium=referral&amp;utm_campaign=petcare#base" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
 
           <div class="col-lg-6 venue-info">
             <div class="row justify-content-center">
-              <div class="col-11 col-lg-8">
+              <div class="col-11 col-lg-8" style='min-height: 350px'>
                 <h3>全港寵物醫院</h3>
                 <p>狗狗也會遇到疾病，不管是出於及時治病還是為狗狗的長遠健康打算，了解您周邊的寵物醫院都非常重要。
                   <br>
@@ -417,6 +489,7 @@
 
     </section>
 
+    
     <!--==========================
      dog hotel map Section
     ============================-->
@@ -437,29 +510,37 @@
         <div id="map" style="width: 650px; height: 480px; border: 1px solid #AAA; margin-left: auto; margin-right: auto;" class="map">
      </div>
      <br>
-     <ul class="nav nav-tabs" role="tablist">
-      <li class="nav-item">
-        <button class="nav-link active" id="hotel_detail" role="tab" data-toggle="tab">寄養所詳細訊息</button>
-      </li>
-    </ul>
-  
-    
-    <div id="details" style="display: none;" >
-      <h3 class="sub-heading" align="center">善用過濾"filter"功能查看您所在分區訊息喔</h3>
-      <iframe class="airtable-embed" src="https://airtable.com/embed/shrq6fmL9RlToToBc?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+     <div class=container>
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <button class="nav-link active" id="hotel_detail" role="tab" data-toggle="tab">寄養所詳細訊息</button>
+            </li>
+          </ul>
+        <div class="row no-gutters" id="details" style="display: none;" >
+        <div class="col-lg-6" style='min-height: 650px'>
+        <iframe class="airtable-embed" src="https://airtable.com/embed/shrq6fmL9RlToToBc?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
     </div>
-    <br>
+    <div class="col-lg-6 club-info">
+        <div class="row justify-content-center">
+            <h3 class="sub-heading" align="center">善用過濾"filter"功能查看您所在分區訊息喔</h3>
+          <div class="col-12 col-lg-12">
+              <img src="/img/tutorial.gif" style="height: 450px;" class="figure-img img-fluid rounded">
+          </div>
+    </div>
+    </div>
     <ul class="nav nav-tabs" role="tablist">
       <li class="nav-item">
         <button class="nav-link active" id="geo_differ" role="tab" data-toggle="tab" style="background-color: #618685">寄養所地區分布差異</button>
       </li>
     </ul>
+    </div>
     <div >
-      <div class="col-lg-12"><div id="chart"></div></div>
+      <div class="col-lg-12"><div align= "center" id="chart"></div></div>
      
 
       </div>
     </section>
+    
     
     <!--==========================
       events Section
@@ -766,6 +847,7 @@ for (var i in map3_data) {
 };
 };
 </script>
+
 </body>
 
 </html>

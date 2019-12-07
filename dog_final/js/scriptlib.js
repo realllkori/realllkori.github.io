@@ -14,6 +14,15 @@ $(document).ready(function(){
     $("button#restrain").click(function() {
         $("#dog_rs").slideToggle(300);
     });
+
+    $("button#show_sites").click(function() {
+        $("#gov_sites").slideToggle(300);
+    });
+
+    $("button#get_location").click(function() {
+        $("#data_map").slideToggle(300);
+    });
+
     $("button#hotel_detail").click(function() {
         $("#details").slideToggle(300);
     });
@@ -21,5 +30,7 @@ $(document).ready(function(){
     $("button#get_recomm").click(function() {
         $("#venue").slideToggle(300);
     });
- 
+
+    
     });
+
