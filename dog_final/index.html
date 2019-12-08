@@ -139,41 +139,30 @@
         <div class="section-header">
           <h2>狗隻種類</h2>
         </div>
-        <h3 class="sub-heading">數據來自美國AKC標準</h3>
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
             <button class="nav-link active" id="all_data" role="tab" data-toggle="tab">一鍵了解所有</button>
           </li>
-        </ul>
-        <br>
-        <div id="alldogtype" style="display: none;" >
-            <iframe class="airtable-embed" src="https://airtable.com/embed/shrzXqZrcCqie8uCC?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-        </div>
-        <br>
-        <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
             <button class="nav-link active" id="dog_intel" role="tab" data-toggle="tab" style="background-color: #eca1a6">狗狗智商TOP 10</button>
           </li>
-          <li class="nav-item">
-              <button class="nav-link active" id="forbid"  role="tab" data-toggle="tab" style="background-color: #c94c4c">香港禁養狗隻</button>
+          <li class="nav-item"role="tablist">
+              <button class="nav-link active" id="forbid"  role="tab" data-toggle="tab" style="background-color: #c94c4c">香港禁/限養狗隻</button>
           </li>
-          <li class="nav-item">
-            <button class="nav-link active" id="restrain"  role="tab" data-toggle="tab" style="background-color: #618685">香港限養狗隻</button>
-        </li>
         </ul>
-        <br>
+        <div id="alldogtype" style="display: none;" >
+          <h3 class="sub-heading">數據來自美國AKC標準</h3>
+            <iframe class="airtable-embed" src="https://airtable.com/embed/shrzXqZrcCqie8uCC?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+        </div>
         <div id="dogintel" style="display: none;" >
           <h3 class="sub-heading">數據來自哥倫比亞大學</h3>
             <iframe class="airtable-embed" src="https://airtable.com/embed/shr9xSSUhF9U2KnTO?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
         </div>
         <div id="dog_fb" style="display: none;" >
           <h3 class="sub-heading">數據來自香港政府一站通</h3>
-          <iframe class="airtable-embed" src="https://airtable.com/embed/shrY7rSCD3YTJhbJD?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+          <h3 class="sub-heading">限養指在公眾地方狗隻需被長度不超過兩米大的狗帶穩妥牽引/長度不超過1.5米的狗帶安穩控制在固定物體</h3>
+          <iframe class="airtable-embed" src="https://airtable.com/embed/shrqpVB86N9PlU9V7?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
       </div>
-      <div id="dog_rs" style="display: none;" >
-        <h3 class="sub-heading">指在公眾地方狗隻需被長度不超過兩米大的狗帶穩妥牽引/長度不超過1.5米的狗帶安穩控制在固定物體</h3>
-        <iframe class="airtable-embed" src="https://airtable.com/embed/shrsGKmFRrLQ0Mqyw?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-    </div>
     <br>
     <ul class="nav nav-tabs" role="tablist">
       <li class="nav-item">
@@ -233,7 +222,7 @@
      <!--==========================
      Adoption procedures section
     ============================-->
-    <section id="speakers" class="wow fadeInUp">
+    <section id="speakers"  class="section-with-bg">
       <div class="container">
         <div class="section-header">
           <h2>養狗所需手續</h2>
@@ -457,7 +446,7 @@
  <!--==========================
       dog hospital map Section
     ============================-->
-    <section id="venue" class="wow fadeInUp">
+    <section id="venue"  class="section-with-bg">
 
       <div class="container-fluid">
 
@@ -493,7 +482,7 @@
     <!--==========================
      dog hotel map Section
     ============================-->
-    <section id="hotel" class="section-with-bg wow fadeInUp">
+    <section id="hotel" class="wow fadeInUp">
 
       <div class="container-fluid">
 
@@ -520,11 +509,11 @@
         <div class="col-lg-6" style='min-height: 650px'>
         <iframe class="airtable-embed" src="https://airtable.com/embed/shrq6fmL9RlToToBc?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
     </div>
-    <div class="col-lg-6 club-info">
+    <div stye="padding"class="col-lg-6 club-info">
         <div class="row justify-content-center">
             <h3 class="sub-heading" align="center">善用過濾"filter"功能查看您所在分區訊息喔</h3>
-          <div class="col-12 col-lg-12">
-              <img src="img/tutorial.gif" style="height: 450px;" class="figure-img img-fluid rounded">
+          <div class="col-12 col-lg-12" >
+              <img style="margin-left: 20px" src="img/tutorial.gif" style="height: 450px;" class="figure-img img-fluid rounded">
           </div>
     </div>
     </div>
@@ -545,7 +534,7 @@
     <!--==========================
       events Section
     ============================-->
-    <section id="event" class="wow fadeInUp">
+    <section id="event"  class="section-with-bg">
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h2>近期活動</h2>
@@ -569,10 +558,20 @@
           <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="December">
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time><b>25-26</b><br/>全天</time></div>
+              <div class="col-md-2"><time><b>25-26</b><br/>9.30am-6.30pm</time></div>
               <div class="col-md-10">
                 <h4>狗狗旅行團之人狗聖誕之旅</h4>
+                <p><span>荃灣眾安街93號1樓 寵物茶餐廳 PETS Restaurant</span></p>
                 <p><span><a href="https://www.facebook.com/events/1159939280864023/?active_tab=about">點擊查詢</a></span></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time><b>14</b><br/>11am-6pm</time></div>
+              <div class="col-md-10">
+                <h4>茶家見山狗狗聖誕市集</h4>
+                <p><span>香港上環太平山街18號</span></p>
+                <p><span><a href="https://www.facebook.com/events/2198648357098024/">點擊查詢</a></span></p>
               </div>
             </div>
 
@@ -587,6 +586,7 @@
               <div class="col-md-10">
                 <h4>希爾思 X 香港愛護動物協會
                     全城狗狗行善日 2020</h4>
+                <p><span>香港迪士尼樂園度假區</span></p>
                 <p><span><a href="https://dogathon.spca.org.hk/">點擊SPCA網站了解更多訊息</a></span></p>
               </div>
             </div>
@@ -600,7 +600,7 @@
             <div class="row schedule-item">
               <div class="col-md-2"><time><b></b><br/></time></div>
               <div class="col-md-10">
-                <h4></h4>
+                <h4>!UPCOMING!</h4>
                 <p><span></span></p>
               </div>
             </div>
@@ -614,10 +614,35 @@
 
     </section>
 
+    
+  <!--==========================
+      Gallery Section
+    ============================-->
+    <section id="gallery" class="wow fadeInUp">
+
+      <div class="container">
+        <div class="section-header">
+          <h2>狗狗趣圖</h2>
+        </div>
+      </div>
+
+      <div class="owl-carousel gallery-carousel">
+        <a href="img/gallery/1.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/1.jpg" alt=""></a>
+        <a href="img/gallery/2.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/2.jpg" alt=""></a>
+        <a href="img/gallery/3.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/3.jpg" alt=""></a>
+        <a href="img/gallery/4.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/4.jpg" alt=""></a>
+        <a href="img/gallery/5.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/5.jpg" alt=""></a>
+        <a href="img/gallery/6.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/6.jpg" alt=""></a>
+        <a href="img/gallery/7.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/7.jpg" alt=""></a>
+        <a href="img/gallery/8.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/8.jpg" alt=""></a>
+      </div>
+
+    </section>
+
     <!--==========================
       Contact Section
     ============================-->
-    <section id="contact" class="section-bg wow fadeInUp">
+    <section id="contact" class="section-with-bg">
 
       <div class="container">
 
@@ -653,6 +678,8 @@
 
       </div>
     </section><!-- #contact -->
+
+
 
   </main>
 
@@ -692,8 +719,8 @@
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
               <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-youtube"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-pinterest"></i></a>
             </div>
 
           </div>
