@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.intechnigence.lesson4" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>lesson4</name>
+    <name>assignment_3</name>
     <description>
-        Lesson 4 Class Demonstration
+        Assignment 3 Tiange zhai
     </description>
-    <author email="bernard@cuhk.edu.hk" href="https://github.com/ybsuen">
-        Bernard Suen
+    <author email="korizhai@163.com" href="https://github.com/realllkori/">
+        Tiange ZHAI
     </author>
     <content src="index.html" />
     <preference name="BackupWebStorage" value="local"/>
@@ -70,8 +70,8 @@
         <param name="onload" value="true"/>
     </feature>
     <allow-navigation href="*" />
-    <allow-navigation href="https://mobile.twitter.com/ybsuen" />
-    <allow-navigation href="https://m.facebook.com/ybsuen" />
-    <allow-navigation href="https://www.instagram.com/ybsuen" />
-    <allow-navigation href="https://github.com/ybsuen" />
+    <allow-navigation href="https://mobile.twitter.com/realllkori" />
+    <allow-navigation href="https://m.facebook.com/realllkori" />
+    <allow-navigation href="https://www.instagram.com/koriii.z/" />
+    <allow-navigation href="https://github.com/realllkori/" />
 </widget>
