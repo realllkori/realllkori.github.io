@@ -1,5 +1,5 @@
 assignment 4
-contains the templates (html) files and static (css&js files) & Jupyternotebook file and the flask file for runnning on pythonanywhere (.ipynb)
+contains the templates (html) files and static (css&js&fonts files) & Jupyternotebook file and the flask file for runnning on pythonanywhere (.ipynb)
 & SQL file.
 
 
