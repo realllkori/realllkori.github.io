@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+
+   {% for item in dataset %}
+        {% if loop.index == 1 %}{% set counter = ( counter | default(1) ) %}{% endif %}
+        {% if counter == 1 %}<div class="row">{% endif %}
+        <div class="col-md-4">
+           <div class="thumbnail">
+            <img width="100%" height="auto" src="{{ item['image_link'] }}" class="img-responsive" style="max-height:300px;">
+               <div class="caption">
+                  <h3>{{ item['dog_type'] }}</h3>
+              <p>體型: {{ item['size'] }}<br>類別: {{ item['function'] }}<br>特點: {{ item['specialty'] }}</p>
+
+   
+          </div>
+        </div> 
+        </div>
+       {% if counter == 3 %}</div><!--end row-->{%  set counter = ( counter | default(1) ) %}{% else %}{% set counter = ( counter | default(0) ) + 1 %}{% endif %}
+      {% endfor %} 
+
+{% endblock %}

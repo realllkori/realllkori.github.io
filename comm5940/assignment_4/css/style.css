@@ -1,0 +1,204 @@
+/* Add custom color CSS */
+.navbar-default {
+  background-color: #db9833;
+  border-color: #ff7b25;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #f2f794;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #f2f794;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #f2f794;
+  background-color: #ff7b25;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #f2f794;
+  background-color: #f6d8ac;
+}
+.navbar-default .navbar-toggle {
+  border-color: #f6d8ac;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ff7b25;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #f2f794;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f2f794;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f2f794;
+    background-color: #ff7b25;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f2f794;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f2f794;
+    background-color: #762c0b;
+  }
+}
+
+/*************************************************************************/
+/**                          Customized CSS Codes             **/
+/*************************************************************************/
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #db9833;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+header {
+  background-color: silver; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  z-index: 9999;
+  height:100px;
+}
+
+.fa-1x {
+  font-size: 3em;
+  color: white;
+}
+
+.cover h1 {
+  color: #f2f794;
+}
+
+.cover p {
+  color:white;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+  background: #db9833;
+  color: white ;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.modal-body p {
+  margin: 10px 0px 0px 0px;
+}
+
+.modal-body {
+  padding:40px;
+}
+
+#snap  {
+  border-width: 1px;
+  background: white;
+  color: #db9833;
+  border-style: solid;
+  border-color: #db9833;
+}
+
+#snap:hover {
+  background: #db9833;
+  color: white;
+}
+
+.thumbnail {
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:0px;
+}
+
+.caption {
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+}
+
+#album {
+  padding-top: 5%;
+  padding-bottom: 8%;
+}
+
+.navbar-default {
+  background-color: #db9833;
+  border-color: #762c0b;
+  padding: 12px;
+}
+
+#myBtn {
+  display: inline-block !important;
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    z-index: 99;
+    font-size: 22px !important;
+    border: none;
+    outline: none;
+    background-color: #db9833;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+}
+
+#myBtn:hover {
+  background-color: #762c0b;
+}
+
+.float-right {
+  float: right!important;
+}
