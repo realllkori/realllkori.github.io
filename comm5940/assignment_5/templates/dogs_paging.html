@@ -1,0 +1,25 @@
+{% extends "base2.html" %}
+{% block content %}
+
+  {% for dog in dog_all.items %}
+       {% if loop.index == 1 %}{% set counter = ( counter | default(1) ) %}{% endif %}
+        {% if counter == 1 %}<div class="row">{% endif %}
+        <div class="col-md-4">
+          <div class="thumbnail text-center">
+          <img src="{{dog.image_link}}" style= "width:100%; height:230px; display:block;">
+                   <h3>犬種名稱:{{ dog.DogType}}</h3>
+                  <p>體型:{{ dog.size }}<br>功能:{{ dog.function }}<br>特點:{{ dog.specialty}}</p>
+          </div>
+        </div> 
+       {% if counter == 3 %}</div><!--end row-->{%  set counter = ( counter | default(1) ) %}{% else %}{% set counter = ( counter | default(0) ) + 1 %}{% endif %}
+  {% endfor %}
+  <div class="container" style="float: left;">
+  {% for page in dog_all.iter_pages() %}  
+    {% if page %}
+        <a href="{{url_for('album')}}/{{ page }}">{{ page }}</a>
+    {% else %}
+        ...
+    {% endif %}
+  {% endfor %}  
+  </div>
+{% endblock %}

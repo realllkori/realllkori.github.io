@@ -1,0 +1,44 @@
+{% extends "base2.html" %}
+{% block content %}
+
+   <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <div class="container-fluid" id="content-page">
+                    <br>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h3>前端-後端</h3>
+                            <p>本網站應用Bootstrap以達到形成數據表現的目的。技術支持：<a href="https://datatables.net/extensions/select/examples/api/select.html" target="_blank">jQuery dataTable</a>, <a href="https://c3js.org/" target="_blank">C3js</a> 和 <a href="https://leafletjs.com/" target="_blank">Leaflet</a>.</p>閣下若想登陸, 請輸入郵箱 "demo@demo.com" 和密碼 "0330" .
+                        </div>
+                        <div class="col-sm-4">
+                            <h3>Web App 框架</h3>
+                            <p>本應用程式建立於 <a href="http://flask.palletsprojects.com/en/1.1.x/" target="_blank">Python Flask framework</a> 和<a href="https://jinja.palletsprojects.com/en/2.10.x/" target="_blank">jinja
+                                template system</a> 它們共同提供了用戶介面的必要元素。&nbsp;</p>
+                            <p></p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h3>數據庫</h3>
+                            <p>Airtable數據庫來源於 <a href="https://airtable.com/api" target="_blank">the Airtable REST API</a>而MySQL數據來源於 <a href="https://flask-sqlalchemy.palletsprojects.com/" target="_blank">Flask SQLAlchemy</a> ORM library.它們提供了佈局數據、分頁和CRUD支持。</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Airtable數據來源</h3>
+                            <p>這是網站的數據來源。包含狗隻種類、地圖等訊息。通過點擊對應按鈕，您可以嘗試自行加入、改變或刪除數據。 </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                     <div class="col-md-12">
+                       <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="airtable-embed" src="https://airtable.com/embed/shrhhPAqby176fDEQ?backgroundColor=yellow" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+                       </div>
+                     </div>
+                   </div><!--end row-->
+                </div>
+            </div>
+            <!-- /#page-content-wrapper -->
+     
+
+{% endblock %}
